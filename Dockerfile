@@ -8,7 +8,7 @@ ENV PORT=8080
 RUN a2emod rewrite
 
 # Copia o codigo da aplicvação 
-COPY ./var/www/html/
+COPY . /var/www/html/
 
 # Corrige permissoes 
 RUN chown -R ww-data:www-data /var/www/html && chmod -R 755 /var/www/htm
