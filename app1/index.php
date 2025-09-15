@@ -1,3 +1,3 @@
-<?php
-echo "Olá, mundo! Aplicação php em nuvem";
+<?php 
+echo "Ola, mundo! Aplicação PHP rodando na nuvem.";
 ?>
