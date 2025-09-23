@@ -12,7 +12,7 @@ $binario = '';
   return $binario;
 }
   //Exemplo de uso
-$frase = "Ola mundo!";
+$frase = "Mariane Martins Dourado";
   $fraseBinario = stringParaBinario($frase);
 
 //Exibindo a frase original e sua versão binaria 
